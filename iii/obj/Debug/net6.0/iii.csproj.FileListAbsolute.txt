@@ -1,0 +1,17 @@
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\iii.exe
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\iii.deps.json
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\iii.runtimeconfig.json
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\iii.dll
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\iii.pdb
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.csproj.AssemblyReference.cache
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.AssemblyInfoInputs.cache
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.AssemblyInfo.cs
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.dll
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\refint\iii.dll
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.pdb
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.genruntimeconfig.cache
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\ref\iii.dll
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\fNbt.dll
+C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.csproj.CopyComplete

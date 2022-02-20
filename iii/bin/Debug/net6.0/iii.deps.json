@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "iii/1.0.0": {
+        "dependencies": {
+          "fNbt": "0.6.4"
+        },
+        "runtime": {
+          "iii.dll": {}
+        }
+      },
+      "fNbt/0.6.4": {
+        "runtime": {
+          "lib/net35-client/fNbt.dll": {
+            "assemblyVersion": "0.6.4.0",
+            "fileVersion": "0.6.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iii/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "fNbt/0.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ApHeYBciy/XixfMdHjknJ4ct4bCrg/rWCOgiI/YyHRp5JMtldEWnQFc23y+S7MOZbL7rG2L+cD8r9P2U1ardqQ==",
+      "path": "fnbt/0.6.4",
+      "hashPath": "fnbt.0.6.4.nupkg.sha512"
+    }
+  }
+}

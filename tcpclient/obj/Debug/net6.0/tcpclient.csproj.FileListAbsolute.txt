@@ -1,0 +1,15 @@
+C:\Users\rasmu\RiderProjects\iii\tcpclient\bin\Debug\net6.0\tcpclient.exe
+C:\Users\rasmu\RiderProjects\iii\tcpclient\bin\Debug\net6.0\tcpclient.deps.json
+C:\Users\rasmu\RiderProjects\iii\tcpclient\bin\Debug\net6.0\tcpclient.runtimeconfig.json
+C:\Users\rasmu\RiderProjects\iii\tcpclient\bin\Debug\net6.0\tcpclient.dll
+C:\Users\rasmu\RiderProjects\iii\tcpclient\bin\Debug\net6.0\tcpclient.pdb
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.csproj.AssemblyReference.cache
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.AssemblyInfoInputs.cache
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.AssemblyInfo.cs
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.dll
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\refint\tcpclient.dll
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.pdb
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\tcpclient.genruntimeconfig.cache
+C:\Users\rasmu\RiderProjects\iii\tcpclient\obj\Debug\net6.0\ref\tcpclient.dll

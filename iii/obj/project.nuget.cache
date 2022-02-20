@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "EvpqesZxgzUwKJDT4dHcc01LPJEKmL1BWEgPjDgC53C0r4lXwdCaMTHQQCdzUyNOfDSs9bAgAJ8A74iuEJ7cpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rasmu\\RiderProjects\\iii\\iii\\iii.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\fnbt\\0.6.4\\fnbt.0.6.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'fNbt 0.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "fNbt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
