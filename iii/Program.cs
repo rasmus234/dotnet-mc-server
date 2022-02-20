@@ -37,7 +37,7 @@ try
         // Get a stream object for reading and writing
         var stream = client.GetStream();
         var socket = stream.Socket;
-        
+
         var reader = new BinaryReader(stream, Encoding.UTF8, leaveOpen: false);
 
 
@@ -65,13 +65,13 @@ try
 
                 var portUInt16 = BinaryPrimitives.ReadUInt16BigEndian(packet.Reader.ReadBytes(2));
                 Console.Out.WriteLine("portUInt16 = {0}", portUInt16);
-                
+
                 var nextState = packet.Reader.ReadByte();
                 Console.Out.WriteLine("nextState = {0}", nextState);
-                
+
                 Console.Out.WriteLine(reader.Read7BitEncodedInt());
                 Console.Out.WriteLine(reader.Read7BitEncodedInt());
-                
+
                 var responseJson = new
                 {
                     version = new
@@ -97,20 +97,28 @@ try
                         text = "A Minecraft Server"
                     }
                 };
-                
+
                 var json = JsonSerializer.Serialize(responseJson);
                 MemoryStream ms = new MemoryStream();
-                BinaryWriter writer = new BinaryWriter(stream, Encoding.UTF8, leaveOpen: false);
+                BinaryWriter writer = new BinaryWriter(ms, Encoding.UTF8, leaveOpen: false);
                 var jsonAsBytes = Encoding.UTF8.GetBytes(json);
-                writer.Write7BitEncodedInt(jsonAsBytes.Length+3);
+                // writer.Write7BitEncodedInt(jsonAsBytes.Length+3);
                 writer.Write7BitEncodedInt(0);
                 writer.Write7BitEncodedInt(jsonAsBytes.Length);
                 writer.Write(jsonAsBytes);
+                var span = ms.GetBuffer().AsSpan(0, (int) ms.Position);
+                var networkWriter = new BinaryWriter(stream, Encoding.UTF8, leaveOpen: false);
+
+                Console.Out.WriteLine(span.Length);
+                networkWriter.Write7BitEncodedInt(span.Length);
+                networkWriter.Write(span);
+
 
                 Console.Out.WriteLine("response sent");
                 Thread.Sleep(100);
-                
-                
+
+                Console.Out.WriteLine(reader.Read7BitEncodedInt());
+                Console.Out.WriteLine(reader.Read7BitEncodedInt());
             }
         }
         catch (Exception e)
