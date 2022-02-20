@@ -115,10 +115,19 @@ try
 
 
                 Console.Out.WriteLine("response sent");
-                Thread.Sleep(100);
 
-                Console.Out.WriteLine(reader.Read7BitEncodedInt());
-                Console.Out.WriteLine(reader.Read7BitEncodedInt());
+                var packetLength = reader.Read7BitEncodedInt();
+                var packetId = reader.Read7BitEncodedInt();
+                Console.Out.WriteLine(packetId);
+                Console.Out.WriteLine(packetLength);
+                
+                // var longNumber = BinaryPrimitives.ReadInt64BigEndian(reader.ReadBytes(8));
+                var longNumber = reader.ReadBytes(8);
+                Console.Out.WriteLine(longNumber);
+
+                networkWriter.Write7BitEncodedInt(packetLength);
+                networkWriter.Write7BitEncodedInt(packetId);
+                networkWriter.Write(longNumber);
             }
         }
         catch (Exception e)
