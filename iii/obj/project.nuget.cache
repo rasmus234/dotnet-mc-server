@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EvpqesZxgzUwKJDT4dHcc01LPJEKmL1BWEgPjDgC53C0r4lXwdCaMTHQQCdzUyNOfDSs9bAgAJ8A74iuEJ7cpw==",
+  "dgSpecHash": "GNlXfTJcLa7tP822TLpiXa94KfDUqvIWvrMItBSYkNjAxsv20AwCZpQuANFXrFYW2Ao+9nWTtz+rZ0SQ3csFVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rasmu\\RiderProjects\\iii\\iii\\iii.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\communitytoolkit.highperformance\\8.0.0-preview1\\communitytoolkit.highperformance.8.0.0-preview1.nupkg.sha512",
     "C:\\Users\\rasmu\\.nuget\\packages\\fnbt\\0.6.4\\fnbt.0.6.4.nupkg.sha512"
   ],
   "logs": [

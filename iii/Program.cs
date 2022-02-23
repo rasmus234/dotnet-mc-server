@@ -7,6 +7,8 @@ using System.Numerics;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using CommunityToolkit.HighPerformance;
+using CommunityToolkit.HighPerformance.Buffers;
 using iii;
 
 
@@ -100,13 +102,17 @@ try
 
                 var json = JsonSerializer.Serialize(responseJson);
                 MemoryStream ms = new MemoryStream();
-                BinaryWriter writer = new BinaryWriter(ms, Encoding.UTF8, leaveOpen: false);
+                using var buffer = MemoryOwner<byte>.Allocate(2048);
+                BinaryWriter writer = new BinaryWriter(buffer.AsStream(), Encoding.UTF8, leaveOpen: false);
                 var jsonAsBytes = Encoding.UTF8.GetBytes(json);
                 // writer.Write7BitEncodedInt(jsonAsBytes.Length+3);
                 writer.Write7BitEncodedInt(0);
                 writer.Write7BitEncodedInt(jsonAsBytes.Length);
                 writer.Write(jsonAsBytes);
-                var span = ms.GetBuffer().AsSpan(0, (int) ms.Position);
+                
+                // var span = ms.GetBuffer().AsSpan(0, (int) ms.Position);
+                var span = buffer.Memory.Span.Slice(0,(int) writer.BaseStream.Position);
+                
                 var networkWriter = new BinaryWriter(stream, Encoding.UTF8, leaveOpen: false);
 
                 Console.Out.WriteLine(span.Length);

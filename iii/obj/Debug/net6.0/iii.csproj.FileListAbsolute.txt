@@ -15,3 +15,4 @@ C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.genruntimeconfig.cache
 C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\ref\iii.dll
 C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\fNbt.dll
 C:\Users\rasmu\RiderProjects\iii\iii\obj\Debug\net6.0\iii.csproj.CopyComplete
+C:\Users\rasmu\RiderProjects\iii\iii\bin\Debug\net6.0\CommunityToolkit.HighPerformance.dll

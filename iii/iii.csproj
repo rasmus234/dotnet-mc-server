@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="CommunityToolkit.HighPerformance" Version="8.0.0-preview1" />
       <PackageReference Include="fNbt" Version="0.6.4" />
     </ItemGroup>
 
