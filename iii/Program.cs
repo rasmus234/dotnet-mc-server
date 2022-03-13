@@ -84,7 +84,7 @@ try
                     players = new
                     {
                         max = 100,
-                        online = 5,
+                        online = 500,
                         sample = new List<dynamic>()
                         {
                             new
